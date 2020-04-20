@@ -7,6 +7,10 @@ header{
     height: 40px;
     color: #fff;
     text-align: center;
+    position: sticky;
+    top: 0rem;
+    background-color: black;
+    padding: 10px;
 }
 header ul{
     list-style-type: none;
@@ -21,12 +25,7 @@ header ul li a{
 }
 
 #container{
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)
-      ), url(pictures/picture2.jpg);
-    background-size: cover;
-    background-repeat: none;
+   
     width: 100%;
     margin: 10px;
     height: auto;
@@ -39,9 +38,14 @@ header ul li a{
 
 .first-div{
     text-align: center;
-    margin: 20px;
     padding: 20px;
     color: #fff;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(pictures/picture2.jpg);
+    background-size: cover;
+    background-repeat: none;
 }
 
 .first-div img{
@@ -51,10 +55,54 @@ header ul li a{
 .first-div button{
     border: none;
     padding: 15px;
+    background-color: blanchedalmond;
 }
 
-
-
+.my-projects{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 10px;
+    text-align: center;
+}
+.my-projects img{
+    width: 100%;
+    height: 250px;
+    border: 2px solid black;
+}
+.my-projects .projects{
+    width: 25%;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.my-projects .projects p{
+    
+    width: 100%;
+}
+.my-projects a{
+    text-decoration: none;
+}
+.contacts{
+    width: 100%;
+    margin: 20px;
+    background-color: hsl(0, 0%, 50%);
+    color: black;
+    padding: 20px;
+}
+.contacts ul{
+    list-style-type: none;
+}
+.contacts li{
+    display: inline;
+}
+.contacts li a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+.contacts li a i{
+    font-size: 30px;
+    color: black;
+}
 
 
 
@@ -65,5 +113,14 @@ header ul li a{
 
 @media (max-width: 480px){
 
-    
+ .my-projects .projects{
+    width: 100% !important; 
+     display: block !important;
+     
+ }
+ .my-projects{
+     margin-left: 0px;
+     text-align: left;
+ }
+ 
 }
