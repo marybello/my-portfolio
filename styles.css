@@ -132,5 +132,11 @@ footer{
  .contacts{
      text-align: center;
  }
+ .first-div button{
+  width: 45%;
+    
+    margin: 5px;
+}
+
  
 }
