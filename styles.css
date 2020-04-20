@@ -103,6 +103,10 @@ header ul li a{
     font-size: 30px;
     color: white;
 }
+footer{
+    margin: 10px;
+    text-align: center;
+}
 
 
 
@@ -119,8 +123,14 @@ header ul li a{
      
  }
  .my-projects{
-     margin-left: 0px;
+     margin-left: -20px;
      text-align: left;
+ }
+ .projects p{
+     text-align: center;
+ }
+ .contacts{
+     text-align: center;
  }
  
 }
