@@ -85,8 +85,8 @@ header ul li a{
 .contacts{
     width: 100%;
     margin: 20px;
-    background-color: hsl(0, 0%, 50%);
-    color: black;
+    background-color: black;
+    color: white;
     padding: 20px;
 }
 .contacts ul{
@@ -101,7 +101,7 @@ header ul li a{
 }
 .contacts li a i{
     font-size: 30px;
-    color: black;
+    color: white;
 }
 
 
